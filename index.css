@@ -1,0 +1,79 @@
+/* body { 
+    padding-top: 75px; 
+} */
+
+.logo{
+    text-align: left;
+    
+
+}
+.nav-link{
+    padding: 30px;
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+    background-color: rgba(172, 255, 47, 0.411);
+}
+.row{
+content:"";
+display: table;
+clear:both;
+
+}
+.column1{
+    float:right;
+    width: 50%;
+    text-align:left ;
+}
+.column2{
+    float:right;
+    width: 30%;
+    text-align: right;
+}
+p{
+    font-size: 1rem;
+}
+@media (min_width:480px) {
+    p{
+        font-size: 1.25rem;
+    }
+    
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
+.card{
+    /* max-height: 300px; */
+    /* max-height: 300px; */
+    padding: 50px;
+}
+.card-img-top{
+    max-height: 500px;
+    
+
+}
+.about_picture{
+    align-self: right;
+}
+
+
+
+  /* speech ;screen readers that read the page out loud
+     screen ;
+     print;@media prnt was used to define layout for print media such as magazines
+   */
+
